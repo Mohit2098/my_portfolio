@@ -11247,6 +11247,16 @@ p {
   overflow: visible;
 }
 
+
+.resume-mn-rw{
+  justify-content: space-between;
+
+}
+
+.res-col{
+  margin-bottom: 2rem;
+
+}
 .hamburger:hover {
   opacity: 0.7;
 }
