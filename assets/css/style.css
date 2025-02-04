@@ -495,7 +495,7 @@ pre code {
 }
 
 .container {
-  width: 100%;
+
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -11951,6 +11951,15 @@ p {
 .section .section-title {
   font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
 }
+.resume-section .rs-hd{
+  font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300))); 
+
+}
+.resume-wrap h2{
+  font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300))); 
+}
+
+
 
 .section .section-subtitle {
   margin-bottom: 6px;
