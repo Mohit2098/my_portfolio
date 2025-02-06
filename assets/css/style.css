@@ -11159,7 +11159,7 @@ p {
 }
 
 
-.portfolio-card .portfolio-card-overlay {
+.portfolio-card .projects-card-overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11180,13 +11180,13 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .portfolio-card .portfolio-card-overlay {
+  .portfolio-card .projects-card-overlay {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.portfolio-card .portfolio-card-overlay .portfolio-card-caption {
+.portfolio-card .projects-card-overlay .projects-card-caption {
   display: block;
   position: absolute;
   top: 50%;
@@ -11197,7 +11197,7 @@ p {
   width: 100%;
 }
 
-.portfolio-card:hover .portfolio-card-overlay {
+.portfolio-card:hover .projects-card-overlay {
   opacity: 1;
   visibility: visible;
   width: 100%;
