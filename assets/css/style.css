@@ -11076,7 +11076,7 @@ p {
 
 }
 .prt-rw-cl{
-  justify-content: space-between;
+ gap:100px;
 }
 
 #nav-toggle{
@@ -11155,8 +11155,10 @@ p {
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
-  height: 400px;
+  height: 100%;
+
 }
+
 
 
 .portfolio-card .projects-card-overlay {
@@ -11216,17 +11218,9 @@ p {
 
 
 
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
+
 /* hamburger */
-/*
-   * Elastic
-   */
+
 .hamburger {
   display: inline-block;
   cursor: pointer;
@@ -11977,4 +11971,41 @@ p {
 
 .section-lg {
   padding: 100px 0 !important;
+}
+
+@media (max-width: 767px){
+
+.prt-rw-cl {
+  gap: 20px;
+}
+
+.portfolio-card .portfolio-card-img {
+
+  object-fit: cover;
+  object-position: top;
+}
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+ .mn-cl-pr{
+  max-width: 35%!important;
+ }
+
+ .pr-sc-rw {
+  gap: 100px;
+   justify-content: unset;
+ }
+
+ .wh-cn-cl{
+  max-width: 35%!important;
+ }
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+
+  .prt-rw-cl {
+    gap: 75px;
+}
+
 }
