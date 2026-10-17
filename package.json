@@ -1,0 +1,27 @@
+{
+  "name": "mohit-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Mohit Semwal, a full stack developer specializing in WordPress, WooCommerce and headless builds with Next.js and Payload CMS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit2098/my_portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "mohit-semwal",
+    "web-developer"
+  ],
+  "author": "Mohit Semwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit2098/my_portfolio/issues"
+  },
+  "homepage": "https://github.com/Mohit2098/my_portfolio#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
